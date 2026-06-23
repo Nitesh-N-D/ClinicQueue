@@ -4,4 +4,4 @@ Disallow: /staff
 Disallow: /status/
 Disallow: /check-status
 
-Sitemap: https://clinicqueue.app/sitemap.xml
+Sitemap: https://clinic-queue-opal.vercel.app/sitemap.xml
