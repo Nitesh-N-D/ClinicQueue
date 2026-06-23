@@ -2,17 +2,21 @@
 
 > A real-time, cloud-hosted smart queue management system for clinics featuring Google Authentication, SMS notifications, multilingual support, and ML-powered wait time prediction.
 
-## 🌐 Live Demo
+## 🌐 Live Application
 
-[![🌍 Frontend](https://img.shields.io/badge/Frontend-Live-success?style=for-the-badge&logo=vercel)](https://clinic-queue-opal.vercel.app)
-
-[![⚙️ Backend API](https://img.shields.io/badge/Backend-Render-blue?style=for-the-badge&logo=render)](https://clinicqueue-backend-b150.onrender.com)
-
+[![🌍 Frontend](https://img.shields.io/badge/Frontend-Live-success?style=for-the-badge\&logo=vercel)](https://clinic-queue-opal.vercel.app)
+[![⚙️ Backend API](https://img.shields.io/badge/Backend-Render-blue?style=for-the-badge\&logo=render)](https://clinicqueue-backend-b150.onrender.com)
 [![👥 Patient Join](https://img.shields.io/badge/Patient-Join%20Queue-00C853?style=for-the-badge)](https://clinic-queue-opal.vercel.app/join)
-
 [![👨‍⚕️ Staff Dashboard](https://img.shields.io/badge/Staff-Dashboard-7B1FA2?style=for-the-badge)](https://clinic-queue-opal.vercel.app/staff)
-
 [![📺 Waiting Room Display](https://img.shields.io/badge/Display-Waiting%20Room-FF6F00?style=for-the-badge)](https://clinic-queue-opal.vercel.app/display)
+
+### Direct Links
+
+* 🚀 **Frontend:** https://clinic-queue-opal.vercel.app
+* ⚙️ **Backend API:** https://clinicqueue-backend-b150.onrender.com
+* 👥 **Patient Join:** https://clinic-queue-opal.vercel.app/join
+* 👨‍⚕️ **Staff Dashboard:** https://clinic-queue-opal.vercel.app/staff
+* 📺 **Waiting Room Display:** https://clinic-queue-opal.vercel.app/display
 
 ---
 
