@@ -204,46 +204,6 @@ they sign in with Google using that exact email address.
 
 ---
 
-
-
-### Backend → Render
-
-1. Push this repo to GitHub
-2. Go to [render.com](https://render.com) → New → Blueprint → connect your repo
-   (it will detect `render.yaml` automatically)
-3. Fill in the environment variables marked `sync: false` in the Render
-   dashboard (your Supabase and Twilio keys)
-4. Deploy — you'll get a URL like `https://clinicqueue-backend.onrender.com`
-
-> Alternative: Railway.app works the same way — "New Project → Deploy from
-> GitHub" → set root directory to `backend` → add the same env vars.
-
-### Frontend → Vercel
-
-1. Go to [vercel.com](https://vercel.com) → New Project → import your repo
-2. Set **Root Directory** to `frontend`
-3. Add environment variables:
-   ```
-   VITE_API_URL=https://clinicqueue-backend.onrender.com/api
-   VITE_SERVER_URL=https://clinicqueue-backend.onrender.com
-   VITE_CLINIC_ID=a0000000-0000-0000-0000-000000000001
-   VITE_SUPABASE_URL=https://xxxx.supabase.co
-   VITE_SUPABASE_ANON_KEY=your-anon-key
-   ```
-   (Leave the last two blank if you only want PIN login — see the Google
-   sign-in section above for full setup.)
-4. Deploy — you'll get `https://your-project.vercel.app`
-5. Go back to Supabase → **Authentication → URL Configuration** and add
-   your live Vercel URL + `/staff` to the redirect URLs list
-
-### Update backend CORS
-
-Once deployed, set `FRONTEND_URL` in your backend's environment variables to
-your live Vercel URL so CORS allows it.
-
-
----
-
 ## 🗂️ Project structure
 
 ```
