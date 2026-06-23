@@ -241,31 +241,6 @@ they sign in with Google using that exact email address.
 Once deployed, set `FRONTEND_URL` in your backend's environment variables to
 your live Vercel URL so CORS allows it.
 
----
-
-## 🔍 SEO & favicons
-
-This project ships with full SEO out of the box:
-
-- Complete meta tags (title, description, keywords) in `frontend/index.html`
-- Open Graph + Twitter Card tags with a generated social share image
-  (`frontend/public/og-image.png`)
-- JSON-LD structured data (`SoftwareApplication` + `Organization`)
-- Favicons at all standard sizes (16, 32, 48, 180, 192, 512px) plus `.ico`
-- `robots.txt` and `sitemap.xml` in `frontend/public/`
-- A PWA `site.webmanifest` so it can be "installed" on mobile
-
-**To verify with Google Search Console:**
-1. Go to [search.google.com/search-console](https://search.google.com/search-console)
-2. Add your deployed domain as a property
-3. Choose the "HTML tag" verification method — copy the content value
-4. Replace `REPLACE_WITH_YOUR_GSC_VERIFICATION_CODE` in `frontend/index.html`
-   with that value, redeploy
-5. Click verify in Search Console
-6. Submit `https://yourdomain.com/sitemap.xml` under **Sitemaps**
-
-Don't forget to update every `https://clinicqueue.app` URL in
-`frontend/index.html`, `robots.txt`, and `sitemap.xml` to your real domain.
 
 ---
 
@@ -296,7 +271,7 @@ clinicqueue/
 
 ---
 
-## 🧪 Demo script (for a hackathon or pitch)
+## 🧪 Demo script
 
 1. Open `/display` on a laptop — this is your "waiting room TV"
 2. Open `/join` on your phone — join the queue as a patient (use a real
