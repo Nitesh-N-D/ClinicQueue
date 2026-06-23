@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /staff
+Disallow: /status/
+Disallow: /check-status
+
+Sitemap: https://clinicqueue.app/sitemap.xml

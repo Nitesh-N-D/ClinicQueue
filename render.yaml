@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: clinicqueue-backend
+    env: node
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_PHONE_NUMBER
+        sync: false
+      - key: SMS_ENABLED
+        value: "false"
+      - key: FRONTEND_URL
+        sync: false
+      - key: STAFF_PIN
+        sync: false
+      - key: DEFAULT_CLINIC_ID
+        value: a0000000-0000-0000-0000-000000000001
