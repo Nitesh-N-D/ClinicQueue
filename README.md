@@ -1,11 +1,25 @@
 # 🏥 ClinicQueue
 
+## 🌐 Live Demo
+
+[![🌍 Frontend](https://img.shields.io/badge/Frontend-Live-success?style=for-the-badge&logo=vercel)](https://clinic-queue-opal.vercel.app)
+
+[![⚙️ Backend API](https://img.shields.io/badge/Backend-Render-blue?style=for-the-badge&logo=render)](https://clinicqueue-backend-b150.onrender.com)
+
+[![👥 Patient Join](https://img.shields.io/badge/Patient-Join%20Queue-00C853?style=for-the-badge)](https://clinic-queue-opal.vercel.app/join)
+
+[![👨‍⚕️ Staff Dashboard](https://img.shields.io/badge/Staff-Dashboard-7B1FA2?style=for-the-badge)](https://clinic-queue-opal.vercel.app/staff)
+
+[![📺 Waiting Room Display](https://img.shields.io/badge/Display-Waiting%20Room-FF6F00?style=for-the-badge)](https://clinic-queue-opal.vercel.app/display)
+
+---
+
 Free, SMS-based queue management for walk-in clinics, FQHCs, and community
 health centers. Built because every existing tool (Waitwhile, QueueBuster) is
 $50+/month and designed for retail — not for clinics where patients may not
 have a smartphone.
 
-**Live demo:** patients join via web or SMS, get real-time ML-predicted wait
+**Live demo:** Patients join via web or SMS, get real-time ML-predicted wait
 times, and staff manage the whole queue from one simple dashboard — entirely
 free to run.
 
