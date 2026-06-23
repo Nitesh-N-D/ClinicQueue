@@ -1,5 +1,7 @@
 # 🏥 ClinicQueue
 
+> A real-time, cloud-hosted smart queue management system for clinics featuring Google Authentication, SMS notifications, multilingual support, and ML-powered wait time prediction.
+
 ## 🌐 Live Demo
 
 [![🌍 Frontend](https://img.shields.io/badge/Frontend-Live-success?style=for-the-badge&logo=vercel)](https://clinic-queue-opal.vercel.app)
