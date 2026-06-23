@@ -19,9 +19,7 @@ health centers. Built because every existing tool (Waitwhile, QueueBuster) is
 $50+/month and designed for retail — not for clinics where patients may not
 have a smartphone.
 
-**Live demo:** Patients join via web or SMS, get real-time ML-predicted wait
-times, and staff manage the whole queue from one simple dashboard — entirely
-free to run.
+**🚀 Live Preview:** Experience ClinicQueue in action with real-time patient check-ins, intelligent wait-time estimation, secure staff authentication, and a responsive dashboard for managing clinic queues.
 
 ---
 
