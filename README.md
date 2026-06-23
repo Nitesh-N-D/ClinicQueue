@@ -256,6 +256,12 @@ clinicqueue/
 
 ---
 
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub. It helps increase visibility and supports future development.
+
+---
+
 ## 📄 License
 
 MIT — free to use, modify, and deploy for your own clinic or community project.
